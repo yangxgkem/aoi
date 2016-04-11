@@ -5,7 +5,7 @@
 #include <stddef.h>
 
 typedef void * (*aoi_Alloc)(void *ud, void * ptr, size_t sz);
-typedef void (aoi_Callback)(void *ud, uint32_t watcher, uint32_t marker, uint8_t type);
+typedef void (aoi_Callback)(void *ud, uint32_t watcher, uint32_t marker);
 
 struct aoi_space;
 
