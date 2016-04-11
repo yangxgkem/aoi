@@ -15,7 +15,7 @@
 // aoi 实体微动判定 移动处于半径的一半, 则认为是微动
 #define AOI_IS_NEAR (AOI_RADIUS2 * 0.25f)
 // aoi 实体离开判定 移动处于半径的2倍, 则认为是离开
-#define AOI_IS_LEAVE (AOI_RADIUS2 * 4f)
+#define AOI_IS_LEAVE (AOI_RADIUS2 * 4.0f)
 // 计算两点距离 x^2+y^2+z^2 直角三角形求斜边公式 c^2=a^2+b^2
 #define DIST2(p1,p2) ((p1[0] - p2[0]) * (p1[0] - p2[0]) + (p1[1] - p2[1]) * (p1[1] - p2[1]) + (p1[2] - p2[2]) * (p1[2] - p2[2]))
 
